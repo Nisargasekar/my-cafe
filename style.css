@@ -1,0 +1,572 @@
+/* =========================
+   GENERAL
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f8f3ea;
+
+    color: #2b2118;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    height: 110px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 70px;
+
+    background-color: #f8f3ea;
+}
+
+
+/* LOGO */
+
+.logo-link {
+    display: flex;
+
+    align-items: center;
+
+    text-decoration: none;
+}
+
+
+.logo {
+    width: 155px;
+
+    height: 85px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* NAVIGATION LINKS */
+
+.nav-links {
+    display: flex;
+
+    gap: 45px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+
+    color: #2b2118;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+    color: #8b4513;
+}
+
+
+/* ORDER BUTTON */
+
+.nav-button {
+    background-color: #8b4513;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 13px 25px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.nav-button:hover {
+    background-color: #6f3510;
+}
+
+
+/* =========================
+   HOME PAGE
+   ========================= */
+
+.hero {
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 70px;
+
+    padding: 50px 90px;
+}
+
+
+.hero-text {
+    width: 50%;
+}
+
+
+.hero-text h1 {
+    font-family: Georgia, serif;
+
+    font-size: 52px;
+
+    line-height: 1.2;
+
+    margin-bottom: 25px;
+}
+
+
+.hero-text p {
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    margin-bottom: 35px;
+
+    max-width: 500px;
+}
+
+
+/* EXPLORE BUTTON */
+
+.explore-btn {
+    display: inline-block;
+
+    background-color: #8b4513;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 28px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.explore-btn:hover {
+    background-color: #6f3510;
+}
+
+
+/* HOME IMAGE */
+
+.hero-image {
+    width: 45%;
+}
+
+
+.hero-image img {
+    width: 100%;
+
+    height: 480px;
+
+    object-fit: cover;
+
+    border-radius: 30px;
+
+    display: block;
+}
+
+
+/* =========================
+   MENU PAGE
+   ========================= */
+
+.menu {
+    text-align: center;
+
+    padding: 50px 70px 80px;
+
+    min-height: 650px;
+}
+
+
+.menu h1 {
+    font-family: Georgia, serif;
+
+    font-size: 48px;
+
+    margin-bottom: 10px;
+}
+
+
+.menu-subtitle {
+    font-family: Georgia, serif;
+
+    font-size: 20px;
+
+    margin-bottom: 45px;
+}
+
+
+/* MENU CARDS CONTAINER */
+
+.menu-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 35px;
+
+    flex-wrap: wrap;
+}
+
+
+/* MENU CARD */
+
+.menu-card {
+    width: 300px;
+
+    background-color: #fffaf2;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    padding-bottom: 25px;
+
+    transition: 0.3s;
+}
+
+
+.menu-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* MENU IMAGE */
+
+.menu-card img {
+    width: 100%;
+
+    height: 240px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* MENU TITLE */
+
+.menu-card h2 {
+    font-family: Georgia, serif;
+
+    font-size: 24px;
+
+    margin: 18px 0 8px;
+}
+
+
+/* MENU DESCRIPTION */
+
+.menu-card p {
+    font-size: 15px;
+
+    margin: 0 20px 12px;
+
+    line-height: 1.5;
+}
+
+
+/* PRICE */
+
+.menu-card h3 {
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+
+/* MENU ORDER BUTTON */
+
+.menu-card button {
+    background-color: #8b4513;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.menu-card button:hover {
+    background-color: #6f3510;
+}
+
+
+/* =========================
+   ABOUT PAGE
+   ========================= */
+
+.about {
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 70px;
+
+    padding: 50px 100px;
+}
+
+
+.about-text {
+    width: 50%;
+}
+
+
+.about-text h1 {
+    font-family: Georgia, serif;
+
+    font-size: 48px;
+
+    margin-bottom: 20px;
+}
+
+
+.about-text h2 {
+    font-family: Georgia, serif;
+
+    font-size: 30px;
+
+    margin-bottom: 25px;
+}
+
+
+.about-text p {
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+
+
+/* ABOUT IMAGE */
+
+.about-image {
+    width: 45%;
+}
+
+
+.about-image img {
+    width: 100%;
+
+    height: 480px;
+
+    object-fit: cover;
+
+    border-radius: 30px;
+
+    display: block;
+}
+
+
+/* FEATURES */
+
+.features {
+    display: flex;
+
+    gap: 40px;
+
+    margin-top: 35px;
+}
+
+
+.feature {
+    text-align: center;
+}
+
+
+.feature-icon {
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+
+.feature h4 {
+    font-size: 14px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 900px) {
+
+    nav {
+        padding: 0 30px;
+    }
+
+
+    .hero {
+        flex-direction: column;
+
+        padding: 50px 40px;
+    }
+
+
+    .hero-text {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .hero-text p {
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+
+    .hero-image {
+        width: 80%;
+    }
+
+
+    .about {
+        flex-direction: column;
+
+        padding: 50px 40px;
+    }
+
+
+    .about-text {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .about-image {
+        width: 80%;
+    }
+
+
+    .features {
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    nav {
+        height: auto;
+
+        padding: 20px;
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+
+    .logo {
+        width: 150px;
+
+        height: 80px;
+    }
+
+
+    .nav-links {
+        gap: 20px;
+    }
+
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+
+    .hero-image {
+        width: 100%;
+    }
+
+
+    .hero-image img {
+        height: 350px;
+    }
+
+
+    .about-image {
+        width: 100%;
+    }
+
+
+    .about-image img {
+        height: 350px;
+    }
+
+
+    .features {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+}
