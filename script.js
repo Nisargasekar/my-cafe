@@ -1,25 +1,9 @@
-/* =========================
-   SIP & BLOOM JAVASCRIPT
-   ========================= */
-
-
-/* =========================
-   ORDER COFFEE
-   ========================= */
 
 function orderCoffee(coffeeName) {
-
     alert(
-        "☕ " + coffeeName +
-        " has been added to your order!\n\n" +
-        "Thank you for choosing Sip & Bloom "
+        "You selected " + coffeeName +
+        ". Please contact us to place your order!"
     );
-
 }
-
-
-/* =========================
-   WELCOME MESSAGE
-   ========================= */
 
 console.log("Welcome to Sip & Bloom!");

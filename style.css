@@ -459,8 +459,7 @@ footer {
     nav {
         padding: 0 30px;
     }
-
-
+    
     .hero {
         flex-direction: column;
 
@@ -513,7 +512,20 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { 
+
+    .menu h1 {
+        font-size: 36px;
+    }
+
+    .menu-container {
+        gap: 24px;
+    }
+
+   .menu-card {
+        width: 100%;
+        max-width: 340px;
+    }
 
     nav {
         height: auto;
@@ -568,5 +580,13 @@ footer {
 
         gap: 20px;
     }
-
 }
+
+/* Keyboard focus styles */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #8b4513;
+    outline-offset: 4px;
+}
+
+
